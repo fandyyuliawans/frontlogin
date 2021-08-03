@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: rgb(64, 52, 109);
+}
+nav {
+  width: 100%;
+  height: 40px;
+}
+nav h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: aliceblue;
+}
+.container-left .google h2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "poppins", sans-serif;
+  color: aliceblue;
+}
+.container-left {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.icon span {
+  display: flex;
+  justify-content: center;
+}
+.container-left .icon img {
+  width: 50px;
+  height: 50px;
+  padding: 20px 20px;
+}
+
+.container-left h4 {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container-left form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-left form label {
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+  color: aliceblue;
+}
+.container-left form input {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  background-color: #666cac;
+  box-shadow: 3px 3px 5px #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.container-left ::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.container-left form a {
+  margin-top: 50px;
+  background-color: #8289d6;
+  width: 70px;
+  height: 23px;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+.container-left form a.button {
+  font-family: "Poppins", sans-serif;
+}
+.container-right {
+  width: 50%;
+  height: 600px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container-right .img-1 {
+  position: absolute;
+  max-width: 50%;
+  right: 0;
+  bottom: 0;
+}
+.container-right .img-2 {
+  position: absolute;
+  max-width: 50%;
+  left: 0;
+  top: 200px;
+}
+footer {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: aliceblue;
+  clear: both;
+}
+footer h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 678px) {
+  .container-right {
+    display: none;
+  }
+
+  .container-left {
+    width: 100%;
+  }
+}
